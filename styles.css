@@ -1,0 +1,154 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto Mono', sans-serif;
+	line-height: 1.5;
+	background: #f2f2f2;
+	color: #323232;
+}
+
+.fas {
+	fill: currentColor;
+	display: inline-block;
+	font-size: inherit;
+	height: 1em;
+	overflow: visible;
+}
+
+a {
+	color: #323232;
+	text-decoration: none;
+} 
+
+a:hover {
+	text-decoration: underline;
+}
+
+.container {
+	max-width: 960px;
+	margin: 40px auto;
+	padding: 32px;
+	background: white;
+	box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1.2fr 3fr;
+	grid-gap: 18px;	
+}
+
+.section-title	 {
+	font-weight: bold;
+	font-size: 16px;
+	border-style: double none double none: 
+	margin-top: 6px;
+	margin-left: 24px;
+}
+/* Main Info*/
+
+.my-intro {
+	margin-left: 24px;
+}
+
+.info-skills h3 {
+	font-size: 16px;
+	margin-top: 10px;
+	background-color: #236FB2;
+	margin-bottom: 6px;
+}
+
+.info-skills {
+	padding: 10px 0 10px 0;
+}
+
+.level {
+	font-size: 12px;
+    float: right;
+    margin-top: -8px;
+}
+
+.info-skills p {
+	font-size: 12px;
+}
+
+.w3-blue {
+	margin-bottom: 10px;
+}
+
+.my-name {
+	font-size: 28px;
+	line-height: 1;
+}
+
+.my-title {
+	font-size: 16px;
+	font-weight: 300;
+	color: #236FB2;
+}
+
+.links {
+	display: block;
+	margin: 10px 0 20px 0;
+}
+
+.link-item {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.link-item i {
+	margin-right: 6px;
+}
+/*Skills Summary*/
+.level-lang {
+	padding-top: 10px;
+}
+
+.bullets li {
+	font-size: 14px;
+	font-weight: normal;
+}
+/*Experience*/
+.job {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 6px;
+	font-size: 18px;	
+}
+
+.job-title-container {
+	padding-bottom: 12px;
+}
+
+.job-company {
+	font-weight: bold;
+	line-height: 1.2;
+	font-size: 18px;
+}
+
+.job-title {
+	font-size: 16px;
+}
+
+.dates {
+	font-size: 14px;	
+}
+
+.exp-bullets li {
+	font-size: 14px;
+	padding-bottom: 6px;
+	font-weight: normal;
+}
+
+
+
+
+
